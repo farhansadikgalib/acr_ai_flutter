@@ -14,10 +14,8 @@ class _SplashPageState extends State<SplashPage> {
       seconds: 3,
       navigateAfterSeconds: HomePage(),
 
-      image: Image.asset("assets/av.png"),
-
-      title: Text("Avengers",style: TextStyle(fontSize:30,fontWeight: FontWeight.bold,color: Colors.purple )),
-      loaderColor: Colors.purple,
+      image: Image.asset("assets/av.png"),photoSize: 75,backgroundColor: Colors.white,
+      loaderColor: Colors.redAccent,
       loadingText: Text("Developed by Farhan",style: TextStyle(color: Colors.black,fontSize: 16.0),),
 
 
